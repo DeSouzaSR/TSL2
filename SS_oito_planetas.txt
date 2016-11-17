@@ -1,0 +1,17 @@
+# Sistema Solar com 8 planetas
+# (Não alterar o número de linhas do arquivo)
+#
+#   m: massa [kg]
+#   a: semieixo maior [AU]
+#   e: excentricidade
+# inc: inclinação [deg]
+
+Planeta  m          a        e         inc
+Mercurio 0.330e24   0.3871   0.206     7.00
+Venus    4.87e24    0.7233   0.007     3.39
+Terra    5.95e24    1.000    0.017     0.00
+Marte    0.642e24   1.5273   0.093     1.85
+Jupiter  1.89813e27 5.202545 0.0474622 1.30667
+Saturno  5.683e26   9.554841 0.0575481 2.48795
+Urano    86e24      19.1914  0.046     0.77
+Netuno   102e24     30.0611  0.010     1.77
