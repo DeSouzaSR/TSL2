@@ -115,14 +115,14 @@ def FreqProp(G, a, m, n):
 
     # Convertendo a matriz B para unidades de deg / yr
     B = B * (180/np.pi) * 365.25
-
+    
     # Obtendo os autovetores e autovalres de A
     A_eigenValues, A_eigenVectors = np.linalg.eig(A)
 
     # Obtendo os autovetores e autovalres de B
     B_eigenValues, B_eigenVectors = np.linalg.eig(B)
 
-    return(A_eigenValues, A_eigenVectors, B_eigenValues, B_eigenVectors)
+    return(A, B, A_eigenValues, A_eigenVectors, B_eigenValues, B_eigenVectors)
     
 # %% Função main - programa principal
 def main():
@@ -169,6 +169,7 @@ def main():
     print('Auto frequências [deg/yr]')
     print(Aval)
     print(Bval)
+    
 
 
 # %% Executando a função main
